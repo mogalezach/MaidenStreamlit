@@ -31,23 +31,23 @@ menu = st.sidebar.radio(
 if menu == "Researcher Profile":
     st.title("Zacharia Mogale")
     st.subheader("Data Scientist | Data Quality & Analytics Practitioner | Meteorological Analyst")
-    st.write("**Contact:** +27 65 881 0777 | mogalezach@gmail.com")
+    st.write("**Contact: mogalezach@gmail.com")
 
     st.markdown("---")
     st.header("Professional Summary")
     st.write("""
     Data Professional with over five years’ experience delivering high-integrity analytical datasets,
     reports, and decision-support insights in regulated, high-accountability environments — including
-    remote Antarctic and sub-Antarctic stations.
+    remote stations.
 
     Proven capability across the full data analytics lifecycle: sourcing, validation, modelling,
     analysis, visualisation, and reporting. Strong background in statistical analysis, machine learning,
     and data quality management. Advanced proficiency in R, Python, SQL, SAS, and Power BI.
 
-    Recently completed Postgraduate Diploma in Data Science (Dec 2025).
+    .
     """)
 
-    st.subheader("Cloud Dynamics Timelapse")
+    st.subheader("Cloud Timelapse")
     st.video("CloudTimeLapse.mp4")
 
 # -------------------- Experience & Achievements --------------------
@@ -55,7 +55,7 @@ elif menu == "Experience & Achievements":
     st.title("Professional Experience & Achievements")
 
     with st.expander("Senior Meteorological Analyst (Oct 2019 – Mar 2021)", expanded=True):
-        st.write("**Department of Forestry, Fisheries and the Environment | SANAE IV, Antarctica**")
+        st.write("**SAWS**")
         st.write("""
         - Led full-lifecycle management of high-frequency operational datasets.
         - Time-series analysis for trends, anomalies, and quality issues.
@@ -64,13 +64,11 @@ elif menu == "Experience & Achievements":
         st.success("""
         **Key Achievements**
         - 98.86% data availability & 99.99% data integrity  
-        - Resolved 200+ data inconsistencies  
-        - Reduced outages to 1.13%  
-        - “Very satisfied” stakeholder rating
+      
         """)
 
     with st.expander("Assistant Meteorological Analyst (Jun 2017 – Oct 2018)"):
-        st.write("**Department of Forestry, Fisheries and the Environment | Gough Island**")
+        st.write("**SAWS**")
         st.write("""
         - Operated and maintained automated atmospheric and marine systems.
         - Conducted validation, quality checks, and preliminary analysis.
@@ -108,7 +106,7 @@ elif menu == "Skills & Leadership":
 
     st.subheader("Leadership Roles")
     st.write("""
-    - **Deputy Expedition Leader, SANAE IV (2020–2021)**  
+    - **Deputy Expedition Leader, SAWS (2020–2021)**  
       Led a team of 9; coordinated logistics, compliance, and risk management.
 
     - **Technical Team Leader, University of Pretoria Community Project (2012)**  
@@ -127,7 +125,7 @@ elif menu == "Contact":
 
     st.header("Get in Touch")
     st.write("**Zacharia Mogale**")
-    st.write("📞 +27 65 881 0777")
+
     st.write("✉️ mogalezach@gmail.com")
     st.write(
         "Open to collaborations in data science, analytics, machine learning, "
